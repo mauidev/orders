@@ -9,7 +9,7 @@
        
         <init-param>
             <param-name>javax.ws.rs.Application</param-name>
-            <param-value>com.overstock.test.DemoApplication</param-value>
+            <param-value>com.overstock.orders.OrdersApplication</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>

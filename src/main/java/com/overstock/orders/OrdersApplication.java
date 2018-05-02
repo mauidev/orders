@@ -12,7 +12,7 @@ public class OrdersApplication extends ResourceConfig {
         register(new AbstractBinder() {
             @Override
             protected void configure() {
-                bind(MatchEngine.class).to(MatchEngine.class);
+                bind(new MatchEngine()).to(MatchEngine.class);
 
             }
         });
